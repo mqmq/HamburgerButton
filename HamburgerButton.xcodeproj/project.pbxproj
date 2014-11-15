@@ -14,6 +14,7 @@
 		12BFC4F71A17193300DAD12B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BFC4F61A17193300DAD12B /* Images.xcassets */; };
 		12BFC4FA1A17193300DAD12B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12BFC4F81A17193300DAD12B /* LaunchScreen.xib */; };
 		12BFC5061A17193300DAD12B /* HamburgerButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BFC5051A17193300DAD12B /* HamburgerButtonTests.m */; };
+		12BFC5111A17195100DAD12B /* HamburgerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BFC5101A17195100DAD12B /* HamburgerButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		12BFC4FF1A17193300DAD12B /* HamburgerButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburgerButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12BFC5041A17193300DAD12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12BFC5051A17193300DAD12B /* HamburgerButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HamburgerButtonTests.m; sourceTree = "<group>"; };
+		12BFC50F1A17195100DAD12B /* HamburgerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HamburgerButton.h; sourceTree = "<group>"; };
+		12BFC5101A17195100DAD12B /* HamburgerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HamburgerButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				12BFC4EE1A17193300DAD12B /* AppDelegate.m */,
 				12BFC4F01A17193300DAD12B /* ViewController.h */,
 				12BFC4F11A17193300DAD12B /* ViewController.m */,
+				12BFC50F1A17195100DAD12B /* HamburgerButton.h */,
+				12BFC5101A17195100DAD12B /* HamburgerButton.m */,
 				12BFC4F31A17193300DAD12B /* Main.storyboard */,
 				12BFC4F61A17193300DAD12B /* Images.xcassets */,
 				12BFC4F81A17193300DAD12B /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12BFC4F21A17193300DAD12B /* ViewController.m in Sources */,
+				12BFC5111A17195100DAD12B /* HamburgerButton.m in Sources */,
 				12BFC4EF1A17193300DAD12B /* AppDelegate.m in Sources */,
 				12BFC4EC1A17193300DAD12B /* main.m in Sources */,
 			);
