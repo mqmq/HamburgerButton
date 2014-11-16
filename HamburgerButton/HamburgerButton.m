@@ -90,12 +90,12 @@ static const CGFloat hamburgerStrokeEnd = 0.111;
                               @"tranform":[NSNull null]};
             [self.layer addSublayer:layer];
         }
-        self.top.anchorPoint = CGPointMake(28.0 / 30.0, 0.5);
+        self.top.anchorPoint = CGPointMake(28.0 / 30.0, 0.5);   //比例
         self.top.position = CGPointMake(40, 18);
         
         self.middle.position = CGPointMake(27, 27);
-        self.middle.strokeStart = hamburgerStrokeStart;
-        self.middle.strokeEnd = hamburgerStrokeEnd;
+        self.middle.strokeStart = hamburgerStrokeStart; //从哪开始绘制路径 0.0~1.0 默认为0.0
+        self.middle.strokeEnd = hamburgerStrokeEnd;     //从哪结束绘制路径 0.0~1.0 默认为1.0
         
         self.bottom.anchorPoint = CGPointMake(28.0 / 30.0, 0.5);
         self.bottom.position = CGPointMake(40, 36);
